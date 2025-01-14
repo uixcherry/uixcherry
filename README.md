@@ -1,52 +1,45 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+# 👋 Hi there, I'm **uixcherry** 🍒  
 
+### 💻 **Full-Stack Developer**  
+
+#### **Tech Stack:**  
+- **Frontend:** TypeScript, React, Tailwind CSS  
+- **Backend:** C#, ASP.NET Core, gRPC  
+- **Cloud:** Azure, AWS Lambda, Docker, Kubernetes  
+- **Databases:** PostgreSQL, Cosmos DB, Redis  
+
+#### **Passionate About:**  
+- Microservices, CQRS, Event-Driven Architecture  
+- DevOps Automation, Scalable Applications  
+
+---
+
+### **Code Sample**  
+```csharp
 namespace UixCherryProfile
 {
-    public class FullStackDeveloper
+    public class Developer
     {
-        public string Name { get; private set; }
-        public Dictionary<string, List<string>> TechStack { get; private set; }
-        public List<string> PassionateAbout { get; private set; }
+        public Developer(string name) => Console.WriteLine($"Hi, I'm {name} 🍒");
 
-        public FullStackDeveloper(string name)
-        {
-            Name = name;
-            TechStack = new Dictionary<string, List<string>>
-            {
-                { "Frontend", new List<string> { "TypeScript", "React", "Tailwind CSS" } },
-                { "Backend", new List<string> { "C#", "ASP.NET Core", "gRPC" } },
-                { "Cloud", new List<string> { "Azure", "AWS Lambda", "Docker", "Kubernetes" } },
-                { "Databases", new List<string> { "PostgreSQL", "Cosmos DB", "Redis" } }
-            };
-            PassionateAbout = new List<string> { "Microservices", "CQRS", "Event-Driven Architecture", "DevOps Automation" };
-        }
-
-        public async Task SayHiAsync()
-        {
-            Console.WriteLine($"👋 Hi there, I'm {Name}! 🍒");
-            Console.WriteLine("🚀 Let's scale amazing applications together!");
-            await SimulateProjectDemoAsync();
-        }
-
-        private async Task SimulateProjectDemoAsync()
-        {
-            Console.WriteLine("\n🌐 Simulating a scalable, event-driven architecture:");
-            await Task.Delay(1000); // Simulate processing time
-            Console.WriteLine("✅ Microservices deployed with Kubernetes and Docker");
-            Console.WriteLine("✅ Real-time data updates handled via SignalR and gRPC");
-            Console.WriteLine("✅ Serverless functions running on Azure and AWS");
-            Console.WriteLine("\n✨ Ready to build something great together? 🤝");
-        }
+        public void ShowSkills() => Console.WriteLine("🚀 Let's build scalable applications!");
     }
 
     class Program
     {
-        static async Task Main(string[] args)
+        static void Main()
         {
-            var me = new FullStackDeveloper("uixcherry");
-            await me.SayHiAsync();
+            new Developer("uixcherry").ShowSkills();
         }
     }
 }
+```
+
+---
+
+### **Contact Me:**  
+- 🌐 **Telegram:**  https://t.me/brzrkrd
+
+✨ *"Ready to innovate and build amazing things? Let’s collaborate!"* 🤝  
+
+---
