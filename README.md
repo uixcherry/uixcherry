@@ -3,14 +3,31 @@
 ### 💻 **Full-Stack Developer**  
 
 #### **Tech Stack:**  
-- **Frontend:** TypeScript, React, Tailwind CSS  
-- **Backend:** C#, ASP.NET Core, gRPC  
-- **Cloud:** Azure, AWS Lambda, Docker, Kubernetes  
-- **Databases:** PostgreSQL, Cosmos DB, Redis  
+- **Frontend:**  
+  - TypeScript, React (Hooks, Context API, Redux)  
+  - Tailwind CSS, XAML (WinUI 3)  
+- **Backend:**  
+  - C# (.NET Framework, .NET Core, ASP.NET Core MVC, Web API)  
+  - Node.js (Express.js)  
+- **Cloud:**  
+  - Azure, AWS Lambda, Docker, Kubernetes  
+- **Databases:**  
+  - SQL (MySQL, PostgreSQL, SQL Server),  
+  - NoSQL (MongoDB, LiteDB, Cosmos DB)  
 
-#### **Passionate About:**  
-- Microservices, CQRS, Event-Driven Architecture  
-- DevOps Automation, Scalable Applications  
+#### **Specialized Skills:**  
+- **Desktop Development:** WinForms, WPF, WinUI 3  
+- **API Expertise:** RESTful API, GraphQL, Telegram API, Discord.js  
+- **ORM:** Entity Framework Core, Dapper  
+
+---
+
+### 🚀 **What I Do Best**  
+- **Clean Code:** Writing maintainable, scalable, and testable code using SOLID principles.  
+- **Microservices:** Building distributed systems with CQRS and event-driven architecture.  
+- **Cloud-Native Development:** Using Docker, Kubernetes, and serverless functions on Azure and AWS.  
+- **Integration & Automation:** Developing Telegram bots, Discord bots, and automating workflows with CI/CD pipelines.  
+- **Team Collaboration:** Agile methodologies and version control with Git.
 
 ---
 
@@ -20,9 +37,17 @@ namespace UixCherryProfile
 {
     public class Developer
     {
-        public Developer(string name) => Console.WriteLine($"Hi, I'm {name} 🍒");
+        private readonly string _name;
+        public Developer(string name) => _name = name;
 
-        public void ShowSkills() => Console.WriteLine("🚀 Let's build scalable applications!");
+        public void ShowSkills()
+        {
+            Console.WriteLine($"👋 Hi, I'm {_name} 🍒");
+            Console.WriteLine("💻 Backend: C#, ASP.NET Core, gRPC");
+            Console.WriteLine("🌐 Frontend: React, TypeScript, Tailwind CSS");
+            Console.WriteLine("☁️ Cloud: Azure, AWS Lambda, Docker, Kubernetes");
+            Console.WriteLine("🚀 Let's build amazing applications together!");
+        }
     }
 
     class Program
@@ -38,8 +63,6 @@ namespace UixCherryProfile
 ---
 
 ### **Contact Me:**  
-- 🌐 **Telegram:**  https://t.me/brzrkrd
+- 🌐 **Telegram:** [@uixcherry](https://t.me/brzrkrd)  
 
-✨ *"Ready to innovate and build amazing things? Let’s collaborate!"* 🤝  
-
----
+✨ *"Let's turn ideas into scalable, innovative solutions!"* 🤝  
