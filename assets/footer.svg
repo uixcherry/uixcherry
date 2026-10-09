@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 150" width="1200" height="150" role="img" aria-labelledby="t">
+  <title id="t">Let's turn ideas into scalable, innovative solutions.</title>
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff2e63"/><stop offset=".5" stop-color="#c026d3"/><stop offset="1" stop-color="#ff2e63"/></linearGradient>
+    <linearGradient id="txt" gradientUnits="userSpaceOnUse" x1="300" y1="0" x2="900" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#ff4d6d"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#ff4d6d"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0;600 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .q { font: italic 600 26px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, Arial, sans-serif; }
+    .w1 { animation: slide 12s linear infinite; } .w2 { animation: slide 18s linear infinite reverse; } .w3 { animation: slide 26s linear infinite; }
+    .in { animation: fade 4s ease-in-out infinite alternate; }
+    @keyframes slide { from { transform: translateX(0); } to { transform: translateX(-1200px); } }
+    @keyframes fade { from { opacity: .75; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <text x="600" y="46" text-anchor="middle" class="q in" fill="url(#txt)">“Let's turn ideas into scalable, innovative solutions.”</text>
+  <g opacity=".25"><path class="w3" d="M0 100 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 q100 -14 200 0 t200 0 V150 H0Z" fill="url(#wave)"/></g>
+  <g opacity=".4"><path class="w2" d="M0 116 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 q75 -10 150 0 t150 0 V150 H0Z" fill="url(#wave)"/></g>
+  <g opacity=".85"><path class="w1" d="M0 130 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 q60 -8 120 0 t120 0 V150 H0Z" fill="url(#wave)"/></g>
+</svg>
